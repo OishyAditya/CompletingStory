@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.LionAndMouse">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/lionandmouse"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title: A lion and a mouse"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Once a lion was sleeping in a forest. Suddenly a mouse came there.
+It did not notice the sleeping lion. It was running about and playing happily.
+By change it ran over the face of the lion. It awoke the lion.
+At this the lion grew very angry with the silly mouse. The mouse became very much frightened.
+But he did not lose heart. He said to the lion, ' O king of the jungle, I am very tiny creature.
+ I made a great mistake, Please forgive me this time. I may be of some help to you any time.
+Hearing this lion smiled and let the mouse go. Days, months and years passed by . One night mouse heard the roar of a lion.
+The mouse went to the place from where the sound was coming. Having reached there he saw the lion trapped in a hunter’s net.
+The net was too strong for the lion to tear. The mouse gave his identity and requested him not to make sound.
+Then the mouse began to cut the rope with its sharp teeth. The lion was freed before dawn.
+The lion expressed his gratitude to the mouse. The mouse said in reply, 'Even the smallest creatures can be of great help to the giants.'"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textSize="20dp"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.AdogAndAnt">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/doveandant"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="One hot day, an ant was searching for some water. After walking around for some time, she came to a spring. To reach the spring, she had to climb up a blade of grass.
+While making her way up, she slipped and fell into the water.
+She could have drowned if a dove up a nearby tree had not seen her. Seeing that the ant was in trouble, the dove quickly plucked a leaf and dropped it into the water near the struggling ant.
+The ant moved towards the leaf and climbed up onto it. Soon, the leaf drifted to dry ground, and the ant jumped out. She was safe at last.
+Just at that time, a hunter nearby was about to throw his net over the dove, hoping to trap it.
+Guessing what he was about to do, the ant quickly bit him on the heel. Feeling the pain, the hunter dropped his net. The dove was quick to fly away to safety."
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

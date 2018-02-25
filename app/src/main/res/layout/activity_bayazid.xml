@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.Bayazid">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/bayazid"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Bayazid's Love For His Mother"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Once upon a time there lived a boy named Bayazid.Bayazid was a small boy.His mother was ill.One night he was studying by the side of the bed of his ailing mothing.
+All on a sudden ,his mother woke up,raised her head and told her son to hive her a glass of water.Bayazid went to the kitchen to bring water.But he found the pitcher empty.
+He searched for water here and there , but in vain.Then , he decided to fetch water from the nearby fountain.He took the pitcher and went to the fountain for water.He came
+back home filling the pitcher to the brim.He poured water into the glass and came to his mother.He found that hsi mother was fast asleep again. He did not want to disturb his ailing mother .
+He remained standing beside his mother's bed. His mother woke in the morning and found her son standing beside her bed.She embraced her son with deep love and prayed to God
+for her son.The prayer of the mother came true.Bayazid became great in life."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

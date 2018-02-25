@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.UnityStrength">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/farmerandhissons"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Unity is Strength"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="A farmer had four sons. They always quarrelled. This made the farmer unhappy.The neighbours were also disturbed every now and then for their loud shouts.
+The farmer tried to bring them into their sense but failed. At last , he thought of a plan .He called all his sons and asked them to bring a bundle of sticks.
+They brought a bundle of three sticks. Then the farmer asked them to break it.The three songs tried one after another.But none could break it.Thn their father asked them to
+untie the bundle and told each of his songs to take one stick.Each of the boys took one stick . Then their father asked them to break the sticks .Now ,they broke them
+easily.Then teh farmer told his sons,'If you live together unitedly, nobody can harm you and if you quarrel and separate ,anybody can harm you just like the single sticks.'"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

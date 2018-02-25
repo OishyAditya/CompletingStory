@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.TwoFriendsAndBear">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/twofriendbear"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="There were two friends.They lived in a certain village.They seemed to be very intimate.They promised that they would help each other at the time of danger.One day they were
+passing through a deep forest.Suddenly, a bear came in front of them.So, both of them were afraid and were in a fix what to do.One friend knew how to climb a tree and
+he promptly climbed a nearby tree.But the other friend finding no way bacame disappointed.Fortunately he remembered that bears don't eat up dead people.So he quickly
+laid down on the ground like a dead body.The bear appeared and examined the breath of the lying friend.Thinking him dead, the bear went away.Coming down from the tree , the other friend
+asked him what the bear had whispered in his ears.The lying friend answered,'The friend who runs away leaving his friend behind is not a real one.'"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:textSize="20dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

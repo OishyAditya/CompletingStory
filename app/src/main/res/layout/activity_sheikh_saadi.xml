@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.SheikhSaadi">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/sheikhsaadi"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Sheikh Saadi And His Teaching"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+           android:text="
+The king of Iran used to invite the great poet Sheikh Saadi very often to his court.Once on his way to the king's court the poet took shelter in a noble man's
+house for a night.He was then a very simple dress on.The rich man took him to be a simple man.They did not show him his due honour.The next day ,the poet left the house
+of the rich man.He went to the court.He was accepted there very cordially.He was coming back.Again,he took shelter in the house of the same rich man.He had valuable dress this time.
+The servants of the rich man took him to be a rich man.They showed him respect like a rich man.They supplied him with rich food.But the poet did not eat .Rather ,he began
+to put the food into his pocket .The rich man asked him why he was doing such madness.He said that the food was for his dress.The rich man understood his fault.He begged
+forgiveness."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

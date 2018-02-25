@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.LiarShpered">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/grapesaresour"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+           android:text="Once upon a time, a hungry fox was roaming around here and there searching for food. Because of hunger, he was feeling weak and tired.
+Fortunately, he came to a garden where he saw a grape-vine laden with bunches of grapes they looked quite ripe and juicy.
+The fox looked at the grapes with longing eyes and licked his chops. But the bunches were too high for him and he was feeling weak.
+So he sat down for a while to take some rest. On feeling refreshed, he jumped as high as he could, to get at the grapes. But he failed to reach them.
+Then he again rested for some time and made another bold attempt, but was unlucky for the second time.
+Forced to give up trying anymore, he just walked away and instead of accepting his failure, he remarked 'the grapes appeared to be ripe and juicy,
+but now I see them to be quite sour.'
+This story, thus, proves that, people generally hate what they can't get."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

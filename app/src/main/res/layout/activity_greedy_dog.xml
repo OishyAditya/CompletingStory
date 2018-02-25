@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.GreedyDog">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/greedydogs"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Once there was a dog. He was very hungry. He wandered door to door. He stole a piece of bone from butcher’s shop and ran  away with it.
+He wanted to eat it alone. So he moved away from there.On the way, there was river. He wanted to cross the river. He passed over the bridge,
+but when he was passing over the bridge, he saw his own image in the water. He took it for another dog with piece of meat in its mouth. He was very greedy.
+ His mouth watered. He wanted to have that bone also.The dog barded at his own shadow in water. When he opened his mouth, his own piece of meat fell into the water.
+He was very sad and repented over his folly. But it was it was too late."
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

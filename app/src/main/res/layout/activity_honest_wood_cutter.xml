@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.WhoWillBell">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/honestwoodcutter"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title: The Honest Wood Cutter"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Once there lived a poor woodcutter, in a village near a jungle. He used to cut wood from the forest and sold in the market. But one day, while cutting wood his axe fell into the pond. The pond was very deep. The woodcutter did not know how to swim or dive. So, he was sitting there sadly.
+Then a wonderful thing happened. A beautiful fairy appeared before the woodcutter. She asked him in a sweet voice, 'Why are you so sad? Why are you not cutting wood?
+The woodcutter replied sorrowfully, 'My axe has fallen into the pond. I can’t cut wood now.'
+The fairy then showed him an axe made of silver. She asked him if it was his axe. The woodcutter saw the axe and said, 'It’s not my axe.'
+The fairy showed him another axe made of gold. She asked, 'Is this the axe that you lost?' The woodcutter said, 'No, it’s not. My axe is made of iron. It was old.' The fairy showed him the lost axe with a wooden handle. The woodcutter then said happily that it was his axe.
+The fairy became very pleased with the honesty of the woodcutter and gave him the gold and the silver axes too. Then the woodcutter became rich and began to live happily. So, we must keep in mind that honesty is always rewarded."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>
+

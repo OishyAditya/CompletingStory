@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.TwoRatsAndMouse">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/tworatsandmonkey"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Dividing By a cunning Monkey"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+           android:text="One day two rats stole a piece of bread. They tried to divide it into two equal parts but failed. They fought for that. Lastly, they agreed to put up their problem to the monkey.
+ All the animals of the forest knew him as the wiser animal.They went to the monkey and asked him to divide the bread into two equal parts.
+The monkey behaved very gently with them. He said that it would be costly for them. It was better for them to settle it among themselves.
+But the rats said that as they had failed to do so, they had come to him in order to make a way out of the problem.
+Then the monkey brought a pair of scales and tore the bread into two pieces. He put the pieces on the scales.
+The monkey told that one piece was heavier than the other. He took the heavier piece and bit a small piece from it.
+ Then the other piece became heavier. Then the monkey took a portion from that piece and put it on the scales.
+ The pieces remained unequal even now. And the monkey did the same thing again and again. After some time, there remained only one small piece of the bread.
+Then the cats asked the monkey not to divide the bread. They said that they would divide it equally themselves.
+They asked for that small piece of bread. Then the monkey said angrily, 'No, this piece is mine. I’ve suffered much to divide it into equal pieces.
+'Saying this the monkey devoured the rest of the bread."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

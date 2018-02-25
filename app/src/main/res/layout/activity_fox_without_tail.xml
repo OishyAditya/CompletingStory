@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.FoxWithoutTail">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/foxwithouttail"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Once there was a clever fox in a jungle.Oneday , when the fox was walking through jungle ,he fell into a trap .He could somehow get out of the trap ,but he had to leave his
+tail behind.Without a tail , he looked strange and he felt sad.But the fox was clever and he made a plan.He invited all the foxes to come to a meeting .All of them came
+Then the fox without a tail said,'My dear friends, listen to what i say.I have discovered a new thing , that is the tails of ours are not useful.They look ugly and always remain dirty.
+So, we shuold cut off our tails.
+All the foxes listened to the clever fox and agreed with him.One of the wise old foxes was listening too.He said,'My friend, your plan is very interesting but foolish.
+You have no tail.So you want us to cut off our tails, because you have lost your own tail.' Without a tail you are looking so strange and ugly.'Everyone agreed with the old wise fox.As the cunning fox failed to convince them,
+he left the place at once."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

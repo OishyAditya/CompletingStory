@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.HazratAbdul">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/bayazidloveformother"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Truthfulness of Hazrat Abdul Quader Jilani"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="In his boyhood Hazrat Abdul Quadir Zilani(R) was going to Baghdad for education.On the eve of his departure from home , his mother said to hime,'My son,never tell a lie and don't
+get frightened in danger'.Baghdad was far away from his home.He bagan his journey in the compay of a band of merchants.The way was infested with robbers and after five days a gang of
+robbers fell upon the travellers.The robbers thought that there was nothing to that small boy.The leader of the gang ordered the robbers to release him.Then the boy Abdul Quader
+remembered his mother's advice and said,'I have forty gold coins sewed in my shirt.'The leader became surprised .The leader said,'You could save your money without
+revealing the truth.' The boy said,'Mother has advised me never to tell a lie even in danger.'The robbers felt ashamed of their deeds and gave up robbery."
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:textSize="20dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

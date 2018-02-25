@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.LiarShpered">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/liarshperd"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:A Liar Shepherd"
+            android:textSize="25dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+           android:text="There was a shepherd. He kept a flock of sleep near a forest.It was not far from his village .One day he wanted to make fun with the villagers.So, he began to shout,
+'Wolf!Wolf!Help!Help!' The villagers heard his cry and ran to help him.But when they came near him, they found no wolf there and the boy laughed at them. The villagers
+were fooled by the cunning boy.So, they went away.After a few days , he made the same fun.The villagers came again to help him but found no wolf there.The boy continued doing it for several days. Each time the villagers
+were befooled.They found no wolf and went home vexed.But one day a wolf really fell upon the sheep and began to kill his sheep.The boy became very afraid and cried,
+'Wolf!Wolf!Help!Help! A wolf is in my sheep! Come and help me!' The villagers heard him but they thought it was his another fun.No one came to help him.The wolf feasted on
+the sheep and finally killed the shepherd. Thus the boy lost his life by telling lies."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

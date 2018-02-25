@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.GreedyFarmer">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/greedyfarmer"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="There lived a farmer in a village. He had a wonderful goose. The goose laid an egg of gold every day. The farmer was very greedy. He thought that there were many eggs in the belly of the goose. He wanted to have all the eggs at a time. Thus, he wished to be rich.
+One day he hit upon a plan that he would kill the goose and get all the eggs of gold from its belly. Then he would sell the eggs and become rich at once.
+The farmer told his wife about his plan. His wife was wise but not greedy. She said to her husband, 'Don’t be greedy. Be happy with what we’ve.'
+But the farmer did not listen to his wife. He killed the goose with a sharp knife. Then he cut open its belly. But alas! He found no egg in it. Thus, the greedy farmer lost his useful goose."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.Richshawpoller">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/honestrickshaw"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:Honesty is the best Policy"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="Abdur Rahim is a rickshaw puller.He is very poor.Everyday he has to work hard to maintain his family.Oneday ,while he was pulling rickshaw, a gentleman got on his rickshaw
+.The man reached the destination and paid him the fare. But at the time of putting his purse into his pocket ,it dropped inside the rickshaw .The man went away and the
+rickshaw puller found a small leather bad in his rickshaw .He brought the bag to his home.When he opened the bag, he found 10 lac taka inside the bag.His wife Salma Begum
+,overwhelmed with joy, asked him to hide the bag.He began to think how he could return the bag to the man.He also found a card in which the name and address of the owner
+was written.He covered the bag with a cloth, and set out for the house with his rickshaw.He reached the house and pressed the calling bell.The gate man wanted to drive him out
+saying that Mr. Samad was almost mad after losing his money.He would not meet anybody.Asif said, please tell him ,a rickshaw puller who had brought him here about two
+hours ago has come to meet him.The gate man conveyed the messageto Mr. Samad .He came out running .Asif gave him the bag.He found his money intact and became surprised.
+Mr. Samad took him in his living room .He gave him some money and appointed him as the caretaker of his house at a monthly pay of taka 6000/=.Thus ,Asif was rewarded for his honesty
+.Asif did not have to ply his rickshaw anymore."
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>

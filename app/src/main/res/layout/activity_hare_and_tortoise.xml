@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    tools:context="com.example.adityaraj.completingstory.HareAndTortoise">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:layout_gravity="center"
+            android:src="@drawable/hareandtortoise"
+            android:layout_marginTop="10dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:text="Title:The Hare and the Tortoise"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:textColor="#17b5d8" />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:lineSpacingExtra="@dimen/activity_vertical_margin"
+            android:text="There lived a hare and tortoise in the same jungle.The hare used to taunt the tortoise for its slow pace.Oneday he challenged the tortoise in a race.Very well, I am ready. I accept your challenge.At once, both of them started.In a moment the hare got ahead of the tortoise.The tortoise was moving very slowly with his heavy shell on his back.The hare stopped half way and looked back.'Ha! Ha'! laughed the hare,'You are creeping on far behind.Speed up, lest i will be half over the country before you reach the endof the battle.'The tortorise said nothing.He toiled and toiled .'I may easily take a short nap and then overtake him,' the hare said to herself.The tortoise was moving slowly with his lifttle feet .He came creeping up the place,never stopping to look behind .The hare awoke and looked forward to see the tortoise.She sprang up and attempted to start on like the wind.She said,'Where is the tortoise?' From the end of the field the tortoise replied,'Hare,Hare ,I have won the race.'"
+            android:textSize="20dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="10dp"
+            android:paddingBottom="10dp"
+            android:layout_gravity="center"
+            android:textColor="#f4830b" />
+
+    </LinearLayout>
+
+</ScrollView>
